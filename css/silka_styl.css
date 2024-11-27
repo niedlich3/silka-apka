@@ -1,12 +1,13 @@
 body{
     min-height: 100vh;
-
+	background-color:white;
 }
 .gora{
-    height: 15vh;
+    height: 13vh;
     width: 100vw;
-    background-color: #595c5a;
-    margin-left: -1vw;
+    background-color:  #bbbfbc;
+   
+	margin-top: -1vh;
 }
 nav{
 	display: flex;
@@ -46,4 +47,89 @@ nav{
 	padding: 10px 30px;
 	border-radius: 3px;
 	cursor: pointer;
+}
+footer{
+	background-color: #bbbfbc;
+	bottom:0;
+	width: 100vw;
+	margin-top: auto;
+	
+}
+.footerNav{
+	margin: 30px 0;
+	
+}
+.footerNav ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.footerNav ul li a{
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+.footerNav ul li a:hover{
+	opacity: 1;
+}
+.footerBottom{
+	background-color: #bbbfbc;
+	padding:20px;
+	text-align: center;
+}
+.footerBottom p{
+	color: white;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
+@media (max-width: 700px){
+	.footerNav ul{
+		flex-direction: column;
+	}
+	.footerNav ul li{
+		width: 100%;
+		text-align:center;
+		margin: 10px;
+	}
+}
+.srodek{
+	min-width: 100vw;
+	min-height: 100vh;
+}
+@media (max-width: 700px){
+	.gora ul{
+		flex-direction: column;
+	}
+	.gora ul li{
+		width: 100%;
+		text-align:center;
+		margin: 10px;
+	}
+}
+.ilosc_osob{
+	width: 33vw;
+	border: 3px solid whitesmoke;
+	border-radius: 10px;
+	height: 5vh;
+	margin-top: 2vh;
+	margin-left: 32vw;
+}
+.listy{
+	padding: 0 3rem;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
 }
