@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silka glowna strona</title>
+    <link rel="stylesheet" href="css/silka_styl.css">
+</head>
+<body>
+   <div class="gora">
+     <nav>
+        <a href="glowna.html"><img src="grafika/logo_apka.png" class="logo" alt="logo"></a>
+
+        <ul class="nav-links">
+            <li><a href="profil.php?id=<?php echo $user_data['id']?>" class="text" style="color: white;">Hello, <?php echo $user_data['user_name']; ?></a></li>
+            <li><a href="kalendarz.php">Kalendarz</a></li>
+            <li><a href="social_feed.php">Znajomi</a></li>  //tu trzeba zrobic tak jak profil
+            <li class="btn" style="color: black;">
+                <a href="login/logout.php" style="color: black;">Logout</a>
+            </li>
+    
+        </ul>
+     </nav>
+   </div>
+</body>
+</html>
