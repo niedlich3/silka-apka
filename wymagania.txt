@@ -1,0 +1,74 @@
+1. Użytkownicy aplikacji
+1.1. Właściciele siłowni
+
+Dostęp do danych o obłożeniu siłowni w czasie rzeczywistym.
+Możliwość zarządzania planem zajęć dodatkowych i przypisywania trenerów.
+Wgląd w raporty dotyczące opłat za karnety.
+Możliwość zarządzania infrastrukturą szafek (dodawanie/usuwanie, monitorowanie stanu).
+Przegląd statystyk dotyczących aktywności użytkowników.
+
+1.2. Klienci siłowni
+
+Możliwość sprawdzania obłożenia siłowni w czasie rzeczywistym.
+Opcja sprawdzenia dostępności szafek w danym momencie.
+Wygodne opłacanie karnetów miesięcznych bezpośrednio z poziomu aplikacji.
+Funkcja zapisów na zajęcia dodatkowe z możliwością rezerwacji miejsc.
+Narzędzie do definiowania i monitorowania celów treningowych.
+
+2. Funkcjonalności aplikacji
+2.1. Obłożenie siłowni
+
+Wyświetlanie liczby aktualnych użytkowników w siłowni w czasie rzeczywistym.
+* Prognozy obłożenia na podstawie danych historycznych.
+
+2.2. Zarządzanie szafkami
+
+Informacja o liczbie wolnych i zajętych szafek w czasie rzeczywistym.
+
+2.3. Płatności za karnety
+
+Integracja z popularnymi metodami płatności (karty kredytowe, BLIK, PayPal).
+Przypomnienia o zbliżającym się terminie odnowienia karnetu.
+Historia transakcji i możliwość pobrania faktury VAT.
+
+2.4. Zajęcia dodatkowe
+
+Harmonogram zajęć dostępny w aplikacji.
+Możliwość filtrowania zajęć po typie (np. joga, crossfit, spinning).
+Powiadomienia o dostępności miejsc na wybrane zajęcia.
+Opcja zapisania się na zajęcia wraz z dodaniem do kalendarza użytkownika.
+
+2.5. Cele treningowe
+Sugestie dotyczące planu treningowego w oparciu o zdefiniowane cele.
+
+3. Wymagania techniczne
+3.1. Integracja z infrastrukturą siłowni
+
+Współpraca z systemami monitorującymi obłożenie oraz stan szafek.
+Kompatybilność z istniejącymi systemami rezerwacji i zarządzania klientami.
+
+3.2. Bezpieczeństwo
+
+Szyfrowanie danych użytkowników i transakcji.
+*Autoryzacja użytkowników przy pomocy loginu i hasła lub biometrii (np. odcisk palca, Face ID).
+
+3.3. Wersje aplikacji
+
+Aplikacja mobilna na systemy Android i iOS.
+Responsywny interfejs dostępny w przeglądarce internetowej.
+
+3.4. Powiadomienia
+
+Wysyłanie notyfikacji push o ważnych wydarzeniach (np. zbliżające się zajęcia, przypomnienia o płatnościach).
+
+3.5. Języki i lokalizacja
+
+*Możliwość dostosowania języka interfejsu do preferencji użytkownika.
+*Wsparcie dla lokalnych walut i stref czasowych.
+
+4. Dodatkowe udogodnienia
+
+*Możliwość tworzenia społeczności użytkowników (grupy tematyczne, fora dyskusyjne).
+*Opcja oceny zajęć i trenerów przez klientów.
+*Funkcja "Znajdź partnera treningowego" z możliwością filtrowania według celów treningowych.
+*Programy lojalnościowe (np. punkty za uczestnictwo w zajęciach).
