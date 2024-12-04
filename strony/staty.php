@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silka glowna strona</title>
-    <link rel="stylesheet" href="css/silka_styl.css">
+    <link rel="stylesheet" href="../css/silka_styl.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <?php
+<?php
         require_once("php/laczenie-z-baza.php")
         funkcja($e)
     ?>
@@ -34,8 +33,8 @@
                 Siłownia
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="strony/silownia.php">Siłownia</a></li>
-                <li><a class="dropdown-item" href="strony/czlonkostwo.php">Członkostwo</a></li>
+                <li><a class="dropdown-item" href="silownia.php">Siłownia</a></li>
+                <li><a class="dropdown-item" href="czlonkostwo.php">Członkostwo</a></li>
                 
               </ul>
             </div>
@@ -44,9 +43,9 @@
                    Użytkownik
                   </button>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="strony/profil.php">Profil</a></li>
-                    <li><a class="dropdown-item" href="strony/staty.php">Moje statystyki</a></li>
-                    <li><a class="dropdown-item" href="strony/kalendarz.php">Kalendarz</a></li>
+                    <li><a class="dropdown-item" href="profil.php">Profil</a></li>
+                    <li><a class="dropdown-item" href="staty.php">Moje statystyki</a></li>
+                    <li><a class="dropdown-item" href="kalendarz.php">Kalendarz</a></li>
                   </ul>
                 </div>
                 <div class="dropdown"> <!--To całe jest do rozwijanej listy, np zeby zrobic jedno dla silki, jedno dla uzykownika inp jedno dla social feeda czy cos-->
@@ -54,24 +53,20 @@
                         Social Feed
                       </button>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="strony/social-glowna.php">Strona główna</a></li>
-                        <li><a class="dropdown-item" href="strony/znajomi.php">Znajomi</a></li>
+                        <li><a class="dropdown-item" href="social-glowna.php">Strona główna</a></li>
+                        <li><a class="dropdown-item" href="znajomi.php">Znajomi</a></li>
                         <li><a class="dropdown-item" href="#">Action three</a></li>
                       </ul>
                     </div>
                 </div>
      </nav>
-   </div>
-   <div class ="srodek">
-    <div class ="ilosc_osob">
-        <!-- tu pokazac ile osob na silowni-->
-    </div>
+
+     <div class ="srodek"></div>
 
 
-   </div>
-   
-   
-   <footer>
+
+
+     <footer>
     <div class = "footerContainer">
      <div class = "footerNav">
       <ul>
