@@ -1,3 +1,0 @@
-https://www.mongodb.com/docs/php-library/current/get-started/download-and-install/#std-label-php-download-and-install
-
-https://www.mongodb.com/docs/php-library/current/get-started/connect-to-mongodb/
